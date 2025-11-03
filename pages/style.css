@@ -1,0 +1,41 @@
+.recommendation-category {
+    margin: 2.5rem 0;
+}
+
+.recommendation-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.recommendation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.recommendation-list li {
+    padding: 1.25rem;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    border-left: 3px solid var(--secondary);
+}
+
+.recommendation-list strong {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.recommendation-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recommendation-list a:hover strong {
+    color: var(--secondary);
+}
+
+.recommendation-list p {
+    margin-top: 0.5rem;
+    color: var(--text-light);
+}
