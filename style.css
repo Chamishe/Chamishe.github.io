@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary: #2c3e50;
+    --primary: #0E3B43;
     --secondary: #3498db;
-    --text: #333;
+    --text: #0E3B43;
     --text-light: #666;
-    --bg: #BABD8D;
+    --bg: #F6FAEF;
     --bg-light: #f8f9fa;
-    --border: #e0e0e0;
+    --border: #0E3B43;
 }
 
 body {
@@ -93,6 +93,7 @@ h3 {
 }
 
 .about p {
+    text-align: justify;
     font-size: 1.05rem;
     line-height: 1.8;
     color: var(--text);
@@ -165,4 +166,13 @@ footer {
     .hero h2 {
         font-size: 1.5rem;
     }
+}
+
+.chat402{
+    text-align: center;
+    margin-top:20vh;
+}
+
+.page402{
+    body{background-color:black}
 }
