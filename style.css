@@ -176,3 +176,8 @@ footer {
 .page402{
     body{background-color:black}
 }
+
+.boite_hibou{
+    display: flex;
+    justify-content: space-around;
+}
