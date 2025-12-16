@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary: #0E3B43;
-    --secondary: #3498db;
-    --text: #0E3B43;
+    --primary: #291526;
+    --secondary: #4A2545;
+    --text: #291526;
     --text-light: #666;
-    --bg: #F6FAEF;
-    --bg-light: #f8f9fa;
-    --border: #0E3B43;
+    --bg: #F0E5ED;
+    --bg-light: #824C71;
+    --border: #4A2545; 
 }
 
 body {
@@ -90,6 +90,7 @@ h3 {
     font-size: 1.5rem;
     color: var(--primary);
     margin-bottom: 1rem;
+    border-bottom:var(--bg-light) 2px dashed;
 }
 
 .about p {
@@ -97,6 +98,32 @@ h3 {
     font-size: 1.05rem;
     line-height: 1.8;
     color: var(--text);
+}
+
+.outil_case{
+    display: flex;
+
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+h5{
+    font-size: larger;
+}
+
+.logo_outil{
+    border-right: var(--bg-light) 1px dashed;
+}
+
+.outil_description{
+    margin-left:20px;
+}
+
+.outil_utilisation{
+    margin-top: 20px;
 }
 
 .contact-links {
